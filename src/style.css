@@ -1,0 +1,33 @@
+html{
+    background-image: url("../public/oficiri-vojna-akademija-vojska-srbije-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topMove{
+    margin-top: 100px;
+    background-color: #f3f3f390;
+    width: fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+h1{
+    color: rgb(112, 41, 41);
+    font-size: 20px;
+    font-family: 'Orbitron';
+    letter-spacing: 3px;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+span{
+    font-size: 22px;
+    letter-spacing: 2px;
+}
