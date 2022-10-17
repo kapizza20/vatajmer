@@ -19,7 +19,7 @@ class App extends React.Component{
           }
       })
       .then((response)=>{
-          let backgroundPic=response.data.results[Math.round(Math.random()*(9-1)+1)].urls.full;
+          let backgroundPic=response.data.results[Math.round(Math.random()*(9-1)+1)].urls.small;
           document.body.style.backgroundImage=`url("${backgroundPic}")`;
       })
     }
