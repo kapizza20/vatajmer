@@ -6,7 +6,7 @@ import '../src/style.css';
 
 class App extends React.Component{
     state={time: Date.now()};
-    searchTerms=['captain','military','army','serbia'];
+    searchTerms=['captain','military','army','guns'];
     term=this.searchTerms[Math.round(Math.random()*(4-0)+0)];
     loadBackground(){
     console.log(Math.round(Math.round(Math.random()*(4-0)+0)));
