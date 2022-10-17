@@ -6,8 +6,8 @@ import '../src/style.css';
 
 class App extends React.Component{
     state={time: Date.now()};
-    searchTerms=['captain','military','army','guns'];
-    term=this.searchTerms[Math.round(Math.random()*(3-0)+0)];
+    searchTerms=['military','army','guns'];
+    term=this.searchTerms[Math.round(Math.random()*(2-0)+0)];
     loadBackground(){
     //console.log(Math.round(Math.round(Math.random()*(4-0)+0)));
       axios.get('https://api.unsplash.com/search/photos',{
@@ -19,7 +19,7 @@ class App extends React.Component{
           }
       })
       .then((response)=>{
-          let backgroundPic=response.data.results[Math.round(Math.random()*(9-0)+0)].urls.small;
+          let backgroundPic=response.data.results[Math.round(Math.random()*(9-0)+0)].urls.full;
           document.body.style.backgroundImage=`url("${backgroundPic}")`;
       })
     }
