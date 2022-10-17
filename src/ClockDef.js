@@ -10,7 +10,7 @@ const ClockDef=(props)=>{
         <div className='container'>
             <div className='topMove'>
             <h1 className='tekst'>Ostalo je jos samo <span>{preostalo}</span> sekundi do kraja</h1>
-            <h1 className='tekst'><span>{dan}</span> dana <h1>Vidis koliko brzo ide, izdrzi!</h1></h1>
+            <h1 className='tekst'><span>{dan}</span> dana <h1>I sta cemo sad?</h1></h1>
             </div>
         </div>
     )

@@ -1,9 +1,7 @@
-html{
+body{
     background-image: url("../public/oficiri-vojna-akademija-vojska-srbije-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width:100vw;
-    heigh:100hw;
 }
 
 .topMove{
